@@ -1,0 +1,10 @@
+.Rhistory
+.RData
+.Rproj.user/
+
+# ignore raw data
+data/
+
+# ignore large objects
+*.rds
+*.h5
