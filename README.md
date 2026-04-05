@@ -18,6 +18,11 @@ The analysis successfully identified major immune cell populations, including CD
 The annotated UMAP visualization below illustrates the distinct clustering of major immune cell populations:
 ![UMAP](results/figures/umap_annotated.png)
 
+## Biological Interpretation
+The clustering patterns observed in the UMAP reflect known biological organization of human PBMCs. Distinct adaptive immune populations (CD4+ and CD8+ T cells, B cells) are clearly separated from innate immune populations (monocytes, dendritic cells, NK cells), consistent with their functional roles.
+Monocytes and inflammatory monocytes form closely related clusters, indicating shared transcriptional programs with activation-specific differences. Dendritic cells appear as a distinct population, reflecting their specialized antigen-presenting function.
+The identification of platelet clusters and smaller populations such as mast cells and gamma-delta T cells further highlights the sensitivity of the workflow in detecting both abundant and rare immune cell types.
+
 ## Tools
 - R
 - Seurat
