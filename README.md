@@ -1,6 +1,6 @@
 # PBMC scRNA-seq Analysis (Seurat)
 
-This project performs single-cell RNA-seq analysis of PBMC data using Seurat.
+This project implements a complete single-cell RNA-seq (scRNA-seq) analysis pipeline on human peripheral blood mononuclear cells (PBMCs) using Seurat (R). It utilizes publicly available data from 10x Genomics and demonstrates a reproducible and structured approach to analyzing single-cell transcriptomic data.
 
 ## Workflow
 1. Data loading and QC
